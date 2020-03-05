@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "ty_watson_coloring_books",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/watsontrevor10/ty_watson_coloring_books"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

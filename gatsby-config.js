@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Ty Watson`,
+    title: `Ty Q. Watson`,
     description: `Adult coloring books for truck lovers`,
     author: `Trevor Watson`,
   },
@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `ty_watson_coloring_books`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,

@@ -14,9 +14,11 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
+        display: 'flex',
+        justifyContent: 'space-between'
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, maxWidth: 900, }}>
         <Link
           to="/"
           style={{
@@ -28,7 +30,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <h3
-        style={{textAlign: 'right'}}
+        style={{ justifyContent: 'right' }}
       >
         <Link 
           to='/about' 

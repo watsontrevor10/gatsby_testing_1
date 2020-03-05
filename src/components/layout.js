@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        <footer style={{ margin: '3em' }}>
           © {new Date().getFullYear()}, Ty Watson
         </footer>
       </div>
