@@ -6,6 +6,9 @@ const PrimaryButton = styled.button`
   border: none;
   color: white;
   background-color: #0082bf;
+  &:hover {
+    background-color: #005882;
+  }
 `
 
 export default PrimaryButton
