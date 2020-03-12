@@ -26,16 +26,27 @@ const Header = ({ siteTitle }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 1200,
+          maxWidth: "95%",
           padding: `1rem 1rem`,
           display: "flex",
           justifyContent: "space-between",
+          alignItems: 'center'
         }}
       >
-        <div style={{ width: "200px" }}>
+        <div
+          style={{
+            width: "200px",
+            
+          }}
+        >
           <Img fluid={data.file.childImageSharp.fluid} />
         </div>
-        <div>
+        <div
+          style={{
+            position: 'relative',
+            right: '3em'
+          }}
+        >
           <h1>
             <Link
               to="/"
@@ -49,7 +60,7 @@ const Header = ({ siteTitle }) => {
           </h1>
         </div>
         <div>
-          <h3 style={{ justifyContent: "right" }}>
+          <h3 >
             <Link to="/about" style={{ color: `white` }}>
               About
             </Link>

@@ -32,7 +32,7 @@ const IndexPage = () => {
         provide you with hours of relaxation while dreaming about climbing rocks
         in the seat of your ultimate monster truck.
       </p>
-      <h4 style={{ textAlign: "center" }}>Relax, color and enjoy.</h4>
+      <h4 style={{ textAlign: "center" }}>Relax, color and enjoy!</h4>
       <div>
         <div
           style={{
