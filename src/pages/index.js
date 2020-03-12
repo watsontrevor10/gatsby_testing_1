@@ -10,17 +10,6 @@ import KennyImage from "../components/kennyImage"
 import SEO from "../components/seo"
 
 const IndexPage = () => {
-  // const [wildImage, setWildImage] = useState(
-  //   "https://images-na.ssl-images-amazon.com/images/I/41XlOYqtfuL._SX404_BO1,204,203,200_.jpg"
-  // )
-  // const secondWildImage =
-  //   "https://images-na.ssl-images-amazon.com/images/I/71OM8F8DDqL.jpg"
-  // const [crusherImage, setCrusherImage] = useState(
-  //   "https://images-na.ssl-images-amazon.com/images/I/61E0Oi4tqYL._SX398_BO1,204,203,200_.jpg"
-  // )
-  // const [kennyImage, setKennyImage] = useState(
-  //   "https://images-na.ssl-images-amazon.com/images/I/41sBVOlWZeL._SX398_BO1,204,203,200_.jpg"
-  // )
 
   return (
     <Layout>
