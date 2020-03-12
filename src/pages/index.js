@@ -10,16 +10,15 @@ import KennyImage from "../components/kennyImage"
 import SEO from "../components/seo"
 
 const IndexPage = () => {
-
   return (
     <Layout>
       <SEO title="Home" />
       <h1>Coloring Books for Truck Lovers</h1>
       <p>
         If you love big, powerful, beefy trucks and coloring, you are going to
-        really enjoy Custom Crusher coloring books. These hand-drawn beasts will
-        provide you with hours of relaxation while dreaming about climbing rocks
-        in the seat of your ultimate monster truck.
+        really enjoy Ty's coloring books. These hand-drawn beasts will provide
+        you with hours of relaxation while dreaming about cruising in your
+        favorite machine.
       </p>
       <h4 style={{ textAlign: "center" }}>Relax, color and enjoy!</h4>
       <div>
@@ -102,4 +101,3 @@ const ButtonContainer = styled.div`
 `
 
 export default IndexPage
-

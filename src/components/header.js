@@ -30,21 +30,20 @@ const Header = ({ siteTitle }) => {
           padding: `1rem 1rem`,
           display: "flex",
           justifyContent: "space-between",
-          alignItems: 'center'
+          alignItems: "center",
         }}
       >
         <div
           style={{
             width: "200px",
-            
           }}
         >
           <Img fluid={data.file.childImageSharp.fluid} />
         </div>
         <div
           style={{
-            position: 'relative',
-            right: '3em'
+            position: "relative",
+            right: "3em",
           }}
         >
           <h1>
@@ -60,7 +59,7 @@ const Header = ({ siteTitle }) => {
           </h1>
         </div>
         <div>
-          <h3 >
+          <h3>
             <Link to="/about" style={{ color: `white` }}>
               About
             </Link>
@@ -80,4 +79,3 @@ Header.defaultProps = {
 }
 
 export default Header
-

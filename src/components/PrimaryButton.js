@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 const PrimaryButton = styled.button`
   border-radius: 8px;
@@ -10,6 +10,5 @@ const PrimaryButton = styled.button`
     background-color: #005882;
   }
 `
-
 
 export default PrimaryButton
