@@ -12,7 +12,11 @@ import SEO from "../components/seo"
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO
+        title="Home"
+        description="adult coloring books for truck lovers"
+        lang="eng"
+      />
       <h1>Coloring Books for Truck Lovers</h1>
       <p>
         If you love big, powerful, beefy trucks and coloring, you are going to
@@ -78,11 +82,9 @@ const IndexPage = () => {
           </ImageContainer>
         </div>
       </div>
-      <div style={{ display: "flex", justifyContent: "center", margin: '3em' }}>
+      <div style={{ display: "flex", justifyContent: "center", margin: "3em" }}>
         <Link to="/downloads">
-          <Button type="button">
-            Printable Drawings
-          </Button>
+          <Button type="button">Printable Drawings</Button>
         </Link>
       </div>
     </Layout>
@@ -92,7 +94,7 @@ const IndexPage = () => {
 const ImageContainer = styled.div`
   width: 600px;
   margin: 5px;
-  border: 3px solid black;
+  border: 2px solid black;
 `
 
 const ButtonContainer = styled.div`

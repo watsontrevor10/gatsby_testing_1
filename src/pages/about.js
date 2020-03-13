@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const SecondPage = ({ data }) => (
   <Layout>
-    <SEO title="about" />
+    <SEO title="about" description="about Ty Watson, coloring book artist" />
     <h1>Ty's Story</h1>
     <body>
       <div>

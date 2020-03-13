@@ -1,5 +1,5 @@
 import React from "react"
-import { } from "gatsby"
+import {} from "gatsby"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import BigLift from "../components/downloadBigLift"
@@ -10,10 +10,15 @@ import Monster1 from "../components/downloadMonster1"
 import Monster2 from "../components/downloadMonster2"
 import Monster3 from "../components/downloadMonster3"
 import Monster4 from "../components/downloadMonster4"
+import SEO from "../components/seo"
 
 const Downloads = () => {
   return (
     <Layout>
+      <SEO
+        title="sample coloring books"
+        description="sample monster truck and semi-truck images to download"
+      />
       <h1>Sample Drawings</h1>
       <p>Feel free to download some free pictures</p>
       <MainContainer>
