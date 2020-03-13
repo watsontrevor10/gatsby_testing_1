@@ -51,7 +51,7 @@ const MainContainer = styled.div`
 `
 
 const ImageContainer = styled.div`
-  width: 400px;
+  max-width: 400px;
   margin: 5px;
   border: 2px solid black;
   break-inside: avoid-column;
