@@ -10,6 +10,16 @@ const SecondPage = ({ data }) => (
     <h1>Ty's Story</h1>
     <body>
       <div>
+        <img
+          src={ty_profile}
+          style={{
+            maxWidth: 200,
+            maxHeight: 500,
+            marginRight: "1em",
+            marginLeft: "2em",
+            float: "right",
+          }}
+        />
         <p>
           Ty Watson grew up in the potato fields of Blackfoot Idaho, and his
           brother-in-law is Jeff Anderson, the mastermind behind{" "}
@@ -21,8 +31,6 @@ const SecondPage = ({ data }) => (
           </a>
           .
         </p>
-      </div>
-      <div style={{ display: "flex", flexDirection: "row" }}>
         <p>
           Since he was a boy, Ty has always loved working on trucks and drawing
           them. after many yeras of drawing, Ty's sister (Jeff's wife) asked him
@@ -31,10 +39,16 @@ const SecondPage = ({ data }) => (
           Custom Crusher coloring books was born. Later, "Old Kenny" was brought
           into the picture, so-to-speak.
         </p>
-        <img
-          src={ty_profile}
-          style={{ maxWidth: 180, marginRight: "1em", marginLeft: "2em" }}
-        />
+      </div>
+      <div>
+        <p>
+          Since he was a boy, Ty has always loved working on trucks and drawing
+          them. after many yeras of drawing, Ty's sister (Jeff's wife) asked him
+          to draw a few monster trucks for her two songs. Ty drew the trucks and
+          his nephews loved them so much they begged for more! The idea of
+          Custom Crusher coloring books was born. Later, "Old Kenny" was brought
+          into the picture, so-to-speak.
+        </p>
       </div>
       <p>
         Ty is a painter and drywall craftsman during the day. But in his leisure

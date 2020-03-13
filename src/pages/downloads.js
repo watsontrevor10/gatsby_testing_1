@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
+import { } from "gatsby"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import BigLift from "../components/downloadBigLift"
