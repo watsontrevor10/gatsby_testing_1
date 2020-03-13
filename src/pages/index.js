@@ -77,8 +77,10 @@ const IndexPage = () => {
             <KennyImage />
           </ImageContainer>
         </div>
+      </div>
+      <div style={{ display: "flex", justifyContent: "center", margin: '3em' }}>
         <Link to="/downloads">
-          <Button type="button" style={{ margin: "2em" }}>
+          <Button type="button">
             Printable Drawings
           </Button>
         </Link>
