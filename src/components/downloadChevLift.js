@@ -20,7 +20,14 @@ const DownloadChevLift = () => {
 
   return (
     <>
-      <Img fluid={data.file.childImageSharp.fluid} />
+      <a
+        href={
+          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133430/Ty%20Watson/chevlift_i7xsaq.jpg"
+        }
+        download
+      >
+        <Img fluid={data.file.childImageSharp.fluid} />
+      </a>
       <div
         style={{
           margin: "8px",

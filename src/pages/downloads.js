@@ -1,5 +1,5 @@
 import React from "react"
-import { } from "gatsby"
+import {} from "gatsby"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import BigLift from "../components/downloadBigLift"
@@ -18,22 +18,38 @@ const Downloads = () => {
       <p>Feel free to download some free pictures</p>
       <MainContainer>
         <ImageContainer>
-          <Dodge />
+          <a>
+            <Dodge />
+          </a>
         </ImageContainer>
         <ImageContainer>
-          <ChevLift />
+          <a>
+            <ChevLift />
+          </a>
         </ImageContainer>
         <ImageContainer>
+          <a>
           <GMCTruck />
+
+          </a>
         </ImageContainer>
         <ImageContainer>
+          <a>
           <BigLift />
+
+          </a>
         </ImageContainer>
         <ImageContainer>
+          <a>
           <Monster1 />
+
+          </a>
         </ImageContainer>
         <ImageContainer>
+          <a>
           <Monster2 />
+
+          </a>
         </ImageContainer>
         <ImageContainer>
           <Monster3 />
