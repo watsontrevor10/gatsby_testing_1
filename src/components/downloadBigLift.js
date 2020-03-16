@@ -21,8 +21,25 @@ const DownloadBigLift = () => {
 
   return (
     <>
-      <Img fluid={data.file.childImageSharp.fluid}  style={{ maxWidth: '100%' }} />
-      <div style={{ margin: "8px", display: "flex", alignItems: "center", justifyContent: 'center' }}>
+      <a
+        href={
+          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133432/Ty%20Watson/biglift_osqxoa.jpg"
+        }
+        download
+      >
+        <Img
+          fluid={data.file.childImageSharp.fluid}
+          style={{ maxWidth: "100%" }}
+        />
+      </a>
+      <div
+        style={{
+          margin: "8px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
         <a
           href={
             "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133432/Ty%20Watson/biglift_osqxoa.jpg"
