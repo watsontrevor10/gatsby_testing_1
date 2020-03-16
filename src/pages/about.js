@@ -1,63 +1,54 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import ty_profile from "../images/ty_profile.jpg"
+import { graphql } from "gatsby"
+import AboutImage from "../components/aboutImage"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = ({ data }) => (
+const SecondPage = () => (
   <Layout>
     <SEO title="about" />
-    <h1>Ty's Story</h1>
+    <h1 style={{ margin: '1em' }}>Ty's Story</h1>
     <body>
       <div>
-        <img
-          src={ty_profile}
+        <div
           style={{
-            maxWidth: 200,
-            maxHeight: 500,
+            width: 300,
+            maxHeight: 300,
             marginRight: "1em",
             marginLeft: "2em",
             float: "right",
           }}
-        />
+        >
+          <AboutImage />
+        </div>
+
         <p>
-          Ty Watson grew up in the potato fields of Blackfoot Idaho, and his
-          brother-in-law is Jeff Anderson, the mastermind behind{" "}
-          <a
-            href="https://www.youtube.com/channel/UCVr-uUnTEFPhMMxmknr5LMw"
-            targer="_blank"
-          >
-            Jpaydirt
-          </a>
-          .
-        </p>
-        <p>
-          Since he was a boy, Ty has always loved working on trucks and drawing
-          them. after many yeras of drawing, Ty's sister (Jeff's wife) asked him
-          to draw a few monster trucks for her two songs. Ty drew the trucks and
-          his nephews loved them so much they begged for more! The idea of
-          Custom Crusher coloring books was born. Later, "Old Kenny" was brought
-          into the picture, so-to-speak.
+          Hello, I’m Ty Q. Watson. I hope you love trucks like I do! I grew up
+          in the potato fields of Blackfoot Idaho, and from the time I was a boy
+          I loved looking at trucks, working on trucks, driving trucks and yes,
+          drawing trucks. It was really my sister who got me thinking about
+          coloring books. One day she was looking at some of my drawings and
+          asked me to draw a few monster trucks for her two sons. So I did, and
+          her boys loved them and begged for more! The idea for Ty Q. Coloring
+          Books was born.
         </p>
       </div>
       <div>
         <p>
-          Since he was a boy, Ty has always loved working on trucks and drawing
-          them. after many yeras of drawing, Ty's sister (Jeff's wife) asked him
-          to draw a few monster trucks for her two songs. Ty drew the trucks and
-          his nephews loved them so much they begged for more! The idea of
-          Custom Crusher coloring books was born. Later, "Old Kenny" was brought
-          into the picture, so-to-speak.
+          Although I have had a long-time passion for drawing my trucks, turning
+          them into coloring books is a recent development. I am a commercial
+          painter and drywall craftsman by trade. But, my body is telling me
+          that my days of painting and hanging drywall are numbered. My deepest
+          desire is to help people like you, who find peace of mind and
+          relaxation through coloring to enjoy these emotional benefits through
+          my drawings. This is why I offer free downloadable drawings on this
+          website. But, I also hope you will order a book or two.
         </p>
       </div>
       <p>
-        Ty is a painter and drywall craftsman during the day. But in his leisure
-        time he finds peace through drawing trucks on all kinds. Ty is hoping
-        that through his drwaings, other will find peace of mind as they bring
-        his drwaings to life through color. If you enjoy "Old Kenny" coloring
-        book and want to try Ty's coloring book of custom pickup trucks go tto
-        Amazon.com and order a copy, and soon you will in coloring bliss....
-        again.
+        Thank you for visiting my website. Let me know which of my trucks you
+        like best and if there is a truck you would like me to draw. You can do
+        this through my Facebook page TyQ Coloring Books.
       </p>
     </body>
   </Layout>
