@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
-// import Button from "../components/PrimaryButton"
+import PrimaryButton from "../components/PrimaryButton"
 import CustomImage from "../components/crusherImage"
 import WackyImage from "../components/wackyImage"
 import KennyImage from "../components/kennyImage"
@@ -83,7 +83,7 @@ const IndexPage = () => {
       </div>
       <div style={{ display: "flex", justifyContent: "center", margin: "3em" }}>
         <Link to="/downloads">
-          <Button type="button">Printable Drawings</Button>
+          <PrimaryButton type="button">Printable Drawings</PrimaryButton>
         </Link>
       </div>
     </Layout>
