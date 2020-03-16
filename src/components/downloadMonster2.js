@@ -22,8 +22,9 @@ const DownloadMonster2 = () => {
     <>
       <a
         href={
-          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133432/Ty%20Watson/monster2.jpg_yrna7q.jpg"
+          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394748/Ty%20Watson/monster2_xyqitg.pdf"
         }
+        target="_blank"
         download
       >
         <Img fluid={data.file.childImageSharp.fluid} />
@@ -38,8 +39,9 @@ const DownloadMonster2 = () => {
       >
         <a
           href={
-            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133432/Ty%20Watson/monster2.jpg_yrna7q.jpg"
+            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394748/Ty%20Watson/monster2_xyqitg.pdf"
           }
+          target="_blank"
           download
         >
           <Button>Download</Button>

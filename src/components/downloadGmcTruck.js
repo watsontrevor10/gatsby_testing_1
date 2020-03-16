@@ -22,8 +22,9 @@ const DownloadGmcTruck = () => {
     <>
       <a
         href={
-          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133430/Ty%20Watson/gmctruck_vmsabk.jpg"
+          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394746/Ty%20Watson/gmctruck_tunhmm.pdf"
         }
+        target="_blank"
         download
       >
         <Img fluid={data.file.childImageSharp.fluid} />
@@ -38,8 +39,9 @@ const DownloadGmcTruck = () => {
       >
         <a
           href={
-            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133430/Ty%20Watson/gmctruck_vmsabk.jpg"
+            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394746/Ty%20Watson/gmctruck_tunhmm.pdf"
           }
+          target="_blank"
           download
         >
           <Button>Download</Button>

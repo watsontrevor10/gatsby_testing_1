@@ -22,8 +22,9 @@ const DownloadChevLift = () => {
     <>
       <a
         href={
-          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133430/Ty%20Watson/chevlift_i7xsaq.jpg"
+          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394748/Ty%20Watson/chevlift_hajpso.pdf"
         }
+        target="_blank"
         download
       >
         <Img fluid={data.file.childImageSharp.fluid} />
@@ -38,8 +39,9 @@ const DownloadChevLift = () => {
       >
         <a
           href={
-            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133430/Ty%20Watson/chevlift_i7xsaq.jpg"
+            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394748/Ty%20Watson/chevlift_hajpso.pdf"
           }
+          target="_blank"
           download
         >
           <Button>Download</Button>

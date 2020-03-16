@@ -23,8 +23,9 @@ const DownloadBigLift = () => {
     <>
       <a
         href={
-          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133432/Ty%20Watson/biglift_osqxoa.jpg"
+          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394747/Ty%20Watson/biglift_b8p6ge.pdf"
         }
+        target="_blank"
         download
       >
         <Img
@@ -42,8 +43,9 @@ const DownloadBigLift = () => {
       >
         <a
           href={
-            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133432/Ty%20Watson/biglift_osqxoa.jpg"
+            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394747/Ty%20Watson/biglift_b8p6ge.pdf"
           }
+          target="_blank"
           download
         >
           <Button>Download</Button>

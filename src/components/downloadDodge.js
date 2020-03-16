@@ -22,8 +22,9 @@ const DownloadDodge = () => {
     <>
       <a
         href={
-          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133431/Ty%20Watson/dodge_wsvna8.jpg"
+          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394748/Ty%20Watson/dodge_tmizxo.pdf"
         }
+        target="_blank"
         download
       >
         <Img fluid={data.file.childImageSharp.fluid} />
@@ -38,8 +39,9 @@ const DownloadDodge = () => {
       >
         <a
           href={
-            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133431/Ty%20Watson/dodge_wsvna8.jpg"
+            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394748/Ty%20Watson/dodge_tmizxo.pdf"
           }
+          target="_blank"
           download
         >
           <Button>Download</Button>
