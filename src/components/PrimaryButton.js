@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 const PrimaryButton = styled.button`
   border-radius: 8px;
@@ -14,9 +14,8 @@ const PrimaryButton = styled.button`
   &:hover {
     // background-color: white;
     // color: black;
-    opacity: .5;
+    opacity: 0.5;
   }
 `
-
 
 export default PrimaryButton

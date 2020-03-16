@@ -31,14 +31,6 @@ const IndexPage = () => {
         "https://www.amazon.com/Old-Kenny-Semi-Truck-Coloring-Book/dp/1724398199/ref=sr_1_3?keywords=ty+watson&qid=1583357258&s=books&sr=1-3",
     },
   ]
-  // const wildImage =
-  //   "https://images-na.ssl-images-amazon.com/images/I/41XlOYqtfuL._SX404_BO1,204,203,200_.jpg"
-  // const secondWildImage =
-  //   "https://images-na.ssl-images-amazon.com/images/I/71OM8F8DDqL.jpg"
-  // const crusherImage =
-  //   "https://images-na.ssl-images-amazon.com/images/I/61E0Oi4tqYL._SX398_BO1,204,203,200_.jpg"
-  // const kennyImage =
-  //   "https://images-na.ssl-images-amazon.com/images/I/41sBVOlWZeL._SX398_BO1,204,203,200_.jpg"
 
   return (
     <Layout>
