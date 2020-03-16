@@ -10,6 +10,16 @@ const SecondPage = ({ data }) => (
     <h1>Ty's Story</h1>
     <body>
       <div>
+        <img
+          src={ty_profile}
+          style={{
+            maxWidth: 200,
+            maxHeight: 500,
+            marginRight: "1em",
+            marginLeft: "2em",
+            float: "right",
+          }}
+        />
         <p>
           Ty Watson grew up in the potato fields of Blackfoot Idaho, and his
           brother-in-law is Jeff Anderson, the mastermind behind{" "}
@@ -21,31 +31,34 @@ const SecondPage = ({ data }) => (
           </a>
           .
         </p>
+        <p>
+          Since he was a boy, Ty has always loved working on trucks and drawing
+          them. after many yeras of drawing, Ty's sister (Jeff's wife) asked him
+          to draw a few monster trucks for her two songs. Ty drew the trucks and
+          his nephews loved them so much they begged for more! The idea of
+          Custom Crusher coloring books was born. Later, "Old Kenny" was brought
+          into the picture, so-to-speak.
+        </p>
       </div>
-      <div style={{ display: "flex", flexDirection: "row" }}>
-        <div>
-          <p>
-            Since he was a boy, Ty has always loved working on trucks and
-            drawing them. after many yeras of drawing, Ty's sister (Jeff's wife)
-            asked him to draw a few monster trucks for her two songs. Ty drew
-            the trucks and his nephews loved them so much they begged for more!
-            The idea of Custom Crusher coloring books was born. Later, "Old
-            Kenny" was brought into the picture, so-to-speak.
-          </p>
-          <p>
-            Ty is a painter and drywall craftsman during the day. But in his
-            leisure time he finds peace through drawing trucks on all kinds. Ty
-            is hoping that through his drwaings, other will find peace of mind
-            as they bring his drwaings to life through color. If you enjoy "Old
-            Kenny" coloring book and want to try Ty's coloring book of custom
-            pickup trucks go to Amazon.com and order a copy, and soon you will
-            in coloring bliss.... again.
-          </p>
-        </div>
-        <div style={{ wordWrap: 'break-word'}}>
-          <img src={ty_profile} style={{ maxWidth: 300, marginLeft: "2em" }} />
-        </div>
+      <div>
+        <p>
+          Since he was a boy, Ty has always loved working on trucks and drawing
+          them. after many yeras of drawing, Ty's sister (Jeff's wife) asked him
+          to draw a few monster trucks for her two songs. Ty drew the trucks and
+          his nephews loved them so much they begged for more! The idea of
+          Custom Crusher coloring books was born. Later, "Old Kenny" was brought
+          into the picture, so-to-speak.
+        </p>
       </div>
+      <p>
+        Ty is a painter and drywall craftsman during the day. But in his leisure
+        time he finds peace through drawing trucks on all kinds. Ty is hoping
+        that through his drwaings, other will find peace of mind as they bring
+        his drwaings to life through color. If you enjoy "Old Kenny" coloring
+        book and want to try Ty's coloring book of custom pickup trucks go tto
+        Amazon.com and order a copy, and soon you will in coloring bliss....
+        again.
+      </p>
     </body>
   </Layout>
 )
