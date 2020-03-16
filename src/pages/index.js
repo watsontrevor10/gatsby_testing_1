@@ -102,7 +102,7 @@ const ImageContainer = styled.div`
 `
 
 const ButtonContainer = styled.div`
-  top: 50%;
+  top: 45%;
   left: 40%;
   position: absolute;
   opacity: 0;

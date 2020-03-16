@@ -29,7 +29,7 @@ const DownloadMonster4 = () => {
       >
         <Img fluid={data.file.childImageSharp.fluid} />
       </a>
-      <div
+      {/* <div
         style={{
           margin: "8px",
           display: "flex",
@@ -46,7 +46,7 @@ const DownloadMonster4 = () => {
         >
           <Button>Download</Button>
         </a>
-      </div>
+      </div> */}
     </>
   )
 }

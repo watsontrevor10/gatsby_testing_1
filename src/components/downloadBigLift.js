@@ -8,7 +8,7 @@ const DownloadBigLift = () => {
     query {
       file(relativePath: { eq: "biglift.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1200, maxHeight: 900) {
+          fluid(maxWidth: 1200, maxHeight: 800) {
             ...GatsbyImageSharpFluid
             originalName
             originalImg
@@ -33,7 +33,7 @@ const DownloadBigLift = () => {
           style={{ maxWidth: "100%" }}
         />
       </a>
-      <div
+      {/* <div
         style={{
           margin: "8px",
           display: "flex",
@@ -50,7 +50,7 @@ const DownloadBigLift = () => {
         >
           <Button>Download</Button>
         </a>
-      </div>
+      </div> */}
     </>
   )
 }
