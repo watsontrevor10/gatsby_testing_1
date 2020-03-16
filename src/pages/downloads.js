@@ -14,42 +14,26 @@ import Monster4 from "../components/downloadMonster4"
 const Downloads = () => {
   return (
     <Layout>
-      <h1>Sample Drawings</h1>
+      <h1>Free Printable Truck Drawings</h1>
       <p>Feel free to download some free pictures</p>
       <MainContainer>
         <ImageContainer>
-          <a>
-            <Dodge />
-          </a>
+          <Dodge />
         </ImageContainer>
         <ImageContainer>
-          <a>
-            <ChevLift />
-          </a>
+          <ChevLift />
         </ImageContainer>
         <ImageContainer>
-          <a>
           <GMCTruck />
-
-          </a>
         </ImageContainer>
         <ImageContainer>
-          <a>
           <BigLift />
-
-          </a>
         </ImageContainer>
         <ImageContainer>
-          <a>
           <Monster1 />
-
-          </a>
         </ImageContainer>
         <ImageContainer>
-          <a>
           <Monster2 />
-
-          </a>
         </ImageContainer>
         <ImageContainer>
           <Monster3 />
