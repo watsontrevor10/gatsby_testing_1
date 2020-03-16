@@ -162,7 +162,6 @@ const Button = styled.button`
 const ImageContainer = styled.div`
   max-width: 400px;
   position: relative;
-  margin: 5px;
   border: 2px solid black;
   transition: 0.5s;
 
@@ -177,6 +176,16 @@ const ImageContainer = styled.div`
 
 const MainContainer = styled.div`
   column-count: 2;
+  column-fill: balance;
+  column-gap: 15px;
+  row-gap: 5px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  -webkit-column-break-inside: avoid;
+  -webkit-column-fill: balance;
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  -moz-column-break-inside: avoid;
   break-after: avoid-column;
 `
 

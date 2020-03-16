@@ -29,24 +29,6 @@ const DownloadMonster1 = () => {
       >
         <Img fluid={data.file.childImageSharp.fluid} />
       </a>
-      {/* <div
-        style={{
-          margin: "8px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <a
-          href={
-            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394748/Ty%20Watson/monster1_mv9tjo.pdf"
-          }
-          target="_blank"
-          download
-        >
-          <Button>Download</Button>
-        </a>
-      </div> */}
     </>
   )
 }

@@ -29,24 +29,6 @@ const DownloadGmcTruck = () => {
       >
         <Img fluid={data.file.childImageSharp.fluid} />
       </a>
-      {/* <div
-        style={{
-          margin: "8px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <a
-          href={
-            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394746/Ty%20Watson/gmctruck_tunhmm.pdf"
-          }
-          target="_blank"
-          download
-        >
-          <Button>Download</Button>
-        </a>
-      </div> */}
     </>
   )
 }
