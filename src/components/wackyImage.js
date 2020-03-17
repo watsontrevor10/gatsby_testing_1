@@ -18,8 +18,9 @@ const Image = () => {
 
   return (
     <a
-      href="https://www.amazon.com/Custom-Crusher-Coloring-Book-Books/dp/1548150916/ref=sr_1_2?keywords=ty+watson&qid=1583357258&s=books&sr=1-2"
+      href="https://www.amazon.com/Wild-Wacky-Semi-Trucks-Coloring-Book/dp/1690659416/ref=sr_1_1?keywords=ty+watson&qid=1583357258&s=books&sr=1-1"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <StyledImg fluid={data.file.childImageSharp.fluid} />
     </a>

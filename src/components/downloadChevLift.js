@@ -25,6 +25,7 @@ const DownloadChevLift = () => {
           "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394748/Ty%20Watson/chevlift_hajpso.pdf"
         }
         target="_blank"
+        rel="noopener noreferrer"
         download
       >
         <Img fluid={data.file.childImageSharp.fluid} />

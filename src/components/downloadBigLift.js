@@ -25,6 +25,7 @@ const DownloadBigLift = () => {
           "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394747/Ty%20Watson/biglift_b8p6ge.pdf"
         }
         target="_blank"
+        rel="noopener noreferrer"
         download
       >
         <Img

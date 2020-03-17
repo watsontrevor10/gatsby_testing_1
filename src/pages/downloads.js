@@ -28,6 +28,7 @@ const Downloads = () => {
               )
             }
             target="_blank"
+            rel="noopener noreferrer"
           >
             Download
           </Button>
@@ -43,6 +44,7 @@ const Downloads = () => {
               )
             }
             target="_blank"
+            rel="noopener noreferrer"
           >
             Download
           </Button>
@@ -58,6 +60,7 @@ const Downloads = () => {
               )
             }
             target="_blank"
+            rel="noopener noreferrer"
           >
             Download
           </Button>
@@ -73,6 +76,7 @@ const Downloads = () => {
               )
             }
             target="_blank"
+            rel="noopener noreferrer"
           >
             Download
           </Button>
@@ -88,6 +92,7 @@ const Downloads = () => {
               )
             }
             target="_blank"
+            rel="noopener noreferrer"
           >
             Download
           </Button>
@@ -103,6 +108,7 @@ const Downloads = () => {
               )
             }
             target="_blank"
+            rel="noopener noreferrer"
           >
             Download
           </Button>
@@ -118,6 +124,7 @@ const Downloads = () => {
               )
             }
             target="_blank"
+            rel="noopener noreferrer"
           >
             Download
           </Button>
@@ -133,6 +140,7 @@ const Downloads = () => {
               )
             }
             target="_blank"
+            rel="noopener noreferrer"
           >
             Download
           </Button>

@@ -20,6 +20,7 @@ const Image = () => {
     <a
       href="https://www.amazon.com/Old-Kenny-Semi-Truck-Coloring-Book/dp/1724398199/ref=sr_1_3?keywords=ty+watson&qid=1583357258&s=books&sr=1-3"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <StyledImg fluid={data.file.childImageSharp.fluid} />
     </a>

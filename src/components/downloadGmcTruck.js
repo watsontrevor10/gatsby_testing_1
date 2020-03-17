@@ -25,6 +25,7 @@ const DownloadGmcTruck = () => {
           "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394746/Ty%20Watson/gmctruck_tunhmm.pdf"
         }
         target="_blank"
+        rel="noopener noreferrer"
         download
       >
         <Img fluid={data.file.childImageSharp.fluid} />

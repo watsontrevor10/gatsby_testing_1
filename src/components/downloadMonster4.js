@@ -25,6 +25,7 @@ const DownloadMonster4 = () => {
           "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394750/Ty%20Watson/monster4_oegkmx.pdf"
         }
         target="_blank"
+        rel="noopener noreferrer"
         download
       >
         <Img fluid={data.file.childImageSharp.fluid} />

@@ -26,6 +26,7 @@ const DownloadMonster3 = () => {
         }
         download
         target="_blank"
+        rel="noopener noreferrer"
       >
         <Img fluid={data.file.childImageSharp.fluid} />
       </a>
