@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
-import Button from "../components/PrimaryButton"
+import PrimaryButton from "../components/PrimaryButton"
 import CustomImage from "../components/crusherImage"
 import WackyImage from "../components/wackyImage"
 import KennyImage from "../components/kennyImage"
@@ -32,10 +32,12 @@ const IndexPage = () => {
             flexDirection: `row-responsive`,
           }}
         >
-          <ImageContainer>
+          <MainContainer>
+            <ImageContainer>
+              <WackyImage />
+            </ImageContainer>
             <ButtonContainer>
               <Button
-                type="button"
                 onClick={() =>
                   window.open(
                     "https://www.amazon.com/Wild-Wacky-Semi-Trucks-Coloring-Book/dp/1690659416/ref=sr_1_1?keywords=ty+watson&qid=1583357258&s=books&sr=1-1",
@@ -46,12 +48,13 @@ const IndexPage = () => {
                 Order
               </Button>
             </ButtonContainer>
-            <WackyImage />
-          </ImageContainer>
-          <ImageContainer>
-            <ButtonContainer style={{}}>
+          </MainContainer>
+          <MainContainer>
+            <ImageContainer>
+              <CustomImage />
+            </ImageContainer>
+            <ButtonContainer>
               <Button
-                type="button"
                 onClick={() =>
                   window.open(
                     "https://www.amazon.com/Custom-Crusher-Coloring-Book-Books/dp/1548150916/ref=sr_1_2?keywords=ty+watson&qid=1583357258&s=books&sr=1-2",
@@ -62,12 +65,13 @@ const IndexPage = () => {
                 Order
               </Button>
             </ButtonContainer>
-            <CustomImage />
-          </ImageContainer>
-          <ImageContainer>
+          </MainContainer>
+          <MainContainer>
+            <ImageContainer>
+              <KennyImage />
+            </ImageContainer>
             <ButtonContainer>
               <Button
-                type="button"
                 onClick={() =>
                   window.open(
                     "https://www.amazon.com/Old-Kenny-Semi-Truck-Coloring-Book/dp/1724398199/ref=sr_1_3?keywords=ty+watson&qid=1583357258&s=books&sr=1-3",
@@ -78,30 +82,51 @@ const IndexPage = () => {
                 Order
               </Button>
             </ButtonContainer>
-            <KennyImage />
-          </ImageContainer>
+          </MainContainer>
         </div>
       </div>
       <div style={{ display: "flex", justifyContent: "center", margin: "3em" }}>
         <Link to="/downloads">
-          <Button type="button">Printable Drawings</Button>
+          <PrimaryButton type="button">Printable Drawings</PrimaryButton>
         </Link>
       </div>
     </Layout>
   )
 }
 
+const Button = styled.button`
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+`
+
 const ImageContainer = styled.div`
-  width: 600px;
-  margin: 5px;
-  border: 2px solid black;
+  opacity: 1;
+  transition: 0.5s;
 `
 
 const ButtonContainer = styled.div`
-  margin: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  top: 45%;
+  left: 40%;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+`
+
+const MainContainer = styled.div`
+  width: 600px;
+  position: relative;
+  margin: 5px;
+  border: 3px solid black;
+  transition: 0.5s;
+
+  &:hover ${ButtonContainer} {
+    opacity: 1;
+  }
+
+  &:hover ${ImageContainer} {
+    opacity: 0.3;
+  }
 `
 
 export default IndexPage

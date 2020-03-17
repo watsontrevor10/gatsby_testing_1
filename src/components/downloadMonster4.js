@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
-import Button from '../components/PrimaryButton'
+import Button from "../components/PrimaryButton"
 
 const DownloadMonster4 = () => {
   const data = useStaticQuery(graphql`
@@ -18,28 +18,20 @@ const DownloadMonster4 = () => {
     }
   `)
 
- return (
-   <>
-     <Img fluid={data.file.childImageSharp.fluid} />
-     <div
-       style={{
-         margin: "8px",
-         display: "flex",
-         alignItems: "center",
-         justifyContent: "center",
-       }}
-     >
-       <a
-         href={
-           "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133432/Ty%20Watson/monster4.jpg_lbeata.jpg"
-         }
-         download
-       >
-         <Button>Download</Button>
-       </a>
-     </div>
-   </>
- )
+  return (
+    <>
+      <a
+        href={
+          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394750/Ty%20Watson/monster4_oegkmx.pdf"
+        }
+        target="_blank"
+        rel="noopener noreferrer"
+        download
+      >
+        <Img fluid={data.file.childImageSharp.fluid} />
+      </a>
+    </>
+  )
 }
 
 export default DownloadMonster4

@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
-import Button from '../components/PrimaryButton'
+import Button from "../components/PrimaryButton"
 
 const DownloadGmcTruck = () => {
   const data = useStaticQuery(graphql`
@@ -20,24 +20,16 @@ const DownloadGmcTruck = () => {
 
   return (
     <>
-      <Img fluid={data.file.childImageSharp.fluid} />
-      <div
-        style={{
-          margin: "8px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
+      <a
+        href={
+          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394746/Ty%20Watson/gmctruck_tunhmm.pdf"
+        }
+        target="_blank"
+        rel="noopener noreferrer"
+        download
       >
-        <a
-          href={
-            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133430/Ty%20Watson/gmctruck_vmsabk.jpg"
-          }
-          download
-        >
-          <Button>Download</Button>
-        </a>
-      </div>
+        <Img fluid={data.file.childImageSharp.fluid} />
+      </a>
     </>
   )
 }

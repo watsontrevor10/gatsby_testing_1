@@ -20,24 +20,16 @@ const DownloadChevLift = () => {
 
   return (
     <>
-      <Img fluid={data.file.childImageSharp.fluid} />
-      <div
-        style={{
-          margin: "8px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
+      <a
+        href={
+          "https://res.cloudinary.com/dx4uolokd/image/upload/v1584394748/Ty%20Watson/chevlift_hajpso.pdf"
+        }
+        target="_blank"
+        rel="noopener noreferrer"
+        download
       >
-        <a
-          href={
-            "https://res.cloudinary.com/dx4uolokd/image/upload/v1584133430/Ty%20Watson/chevlift_i7xsaq.jpg"
-          }
-          download
-        >
-          <Button>Download</Button>
-        </a>
-      </div>
+        <Img fluid={data.file.childImageSharp.fluid} />
+      </a>
     </>
   )
 }

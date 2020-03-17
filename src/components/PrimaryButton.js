@@ -5,10 +5,8 @@ const PrimaryButton = styled.button`
   color: white;
   background-color: #0082bf;
   transition-duration: 300ms;
+
   cursor: pointer;
-  &:hover {
-    background-color: #005882;
-  }
 `
 
 export default PrimaryButton
