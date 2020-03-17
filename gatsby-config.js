@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ty_watson_coloring_books`,
+        name: `ty_q_watson_coloring_books`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,

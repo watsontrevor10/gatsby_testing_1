@@ -6,10 +6,7 @@ import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO 
-      title="about" 
-      description="About Ty Q. Watson, coloring book artist" 
-    />
+    <SEO title="About" description="About Ty Q. Watson, coloring book artist" />
     <h1 style={{ margin: "1em" }}>Ty's Story</h1>
     <body>
       <div>
@@ -24,7 +21,6 @@ const SecondPage = () => (
         >
           <AboutImage />
         </div>
-
         <p>
           Hello, I’m Ty Q. Watson. I hope you love trucks like I do! I grew up
           in the potato fields of Blackfoot Idaho, and from the time I was a boy

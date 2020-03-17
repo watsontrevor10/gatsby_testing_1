@@ -15,10 +15,10 @@ import SEO from "../components/seo"
 const Downloads = () => {
   return (
     <Layout>
-      <SEO 
-        title="free coloring sheets"
+      <SEO
+        title="Free Coloring Sheets"
         description="some free printable coloring sheets of monster trucks and semi trucks"
-        lang='eng'
+        lang="eng"
       />
       <h1>Free Printable Truck Drawings</h1>
       <p>Feel free to download some free pictures</p>
