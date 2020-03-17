@@ -97,6 +97,10 @@ const IndexPage = () => {
 const Button = styled.button`
   background-color: #4caf50;
   color: white;
+  border-radius: 15px;
+  text-shadow: 3px 2px 1px gray;
+  font-size: 20px;
+
   cursor: pointer;
 `
 
@@ -106,8 +110,9 @@ const ImageContainer = styled.div`
 `
 
 const ButtonContainer = styled.div`
-  top: 45%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
   opacity: 0;
   transition: 0.5s;

@@ -160,9 +160,12 @@ const Button = styled.button`
   position: absolute;
   opacity: 0;
   background-color: #4caf50;
+  border-radius: 15px;
+  text-shadow: 3px 2px 1px gray;
   color: white;
-  top: 45%;
-  left: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   cursor: pointer;
   transition: 0.5s;
