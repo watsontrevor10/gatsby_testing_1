@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const PrimaryButton = styled.button`
-  border-radius: 8px;
+  border-radius: 15px;
   color: white;
   background-color: #0082bf;
   font-size: 20px;

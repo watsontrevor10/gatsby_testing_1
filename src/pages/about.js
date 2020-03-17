@@ -6,8 +6,11 @@ import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="about" />
-    <h1 style={{ margin: '1em' }}>Ty's Story</h1>
+    <SEO 
+      title="about" 
+      description="About Ty Q. Watson, coloring book artist" 
+    />
+    <h1 style={{ margin: "1em" }}>Ty's Story</h1>
     <body>
       <div>
         <div
